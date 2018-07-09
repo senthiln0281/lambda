@@ -1,5 +1,6 @@
 provider "aws"{
   region = "${var.region}"
+}
 resource "aws_lambda_function" "RequestUnicorn" {
 #  filename         = "requestunicorn.zip"
   function_name    = "requestunicorn"
